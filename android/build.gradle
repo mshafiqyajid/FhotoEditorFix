@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.devcrew.fhoto_editor"
     compileSdkVersion 31
 
     compileOptions {
